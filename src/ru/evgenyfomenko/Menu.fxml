@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="fon" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.evgenyfomenko.Menu.Menu">
+   <children>
+      <Button id="start" contentDisplay="CENTER" layoutX="220.0" layoutY="194.0" mnemonicParsing="false" onAction="#buttonClicked" prefHeight="58.0" prefWidth="160.0" text="Старт">
+         <font>
+            <Font name="DejaVu Sans Bold" size="32.0" />
+         </font>
+         <effect>
+            <Reflection />
+         </effect>
+      </Button>
+      <Text fill="#ff0b0b" fontSmoothingType="LCD" layoutX="60.0" layoutY="90.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="BEVEL" strokeWidth="0.0" text="Добро пожаловать в игру Манчикн nEw" textAlignment="CENTER" underline="true" wrappingWidth="517.13671875">
+         <font>
+            <Font size="43.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
