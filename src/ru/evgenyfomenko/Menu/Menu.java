@@ -1,4 +1,4 @@
-package ru.evgenyfomenko.Menu;
+/*package ru.evgenyfomenko.Menu;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -7,10 +7,7 @@ import javafx.stage.Stage;
 import javafx.scene.Scene;
 import javafx.scene.Group;
 import javafx.scene.text.Text;
-import ru.evgenyfomenko.Player.Player1;
-import ru.evgenyfomenko.Player.Warrior;
 
-import java.awt.event.ActionEvent;
 import java.io.IOException;
 
 public class Menu {
@@ -33,3 +30,4 @@ public class Menu {
     }
 
 }
+*/

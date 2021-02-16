@@ -1,26 +1,11 @@
 package ru.evgenyfomenko.Player;
 
-import ru.evgenyfomenko.Player.GameClass;
-
-public class Warrior implements GameClass {
-    String description = " Это класс воин он имеет много силы но мало брони ";
+public class Warrior extends Charter {
+    private String description = " Это класс воин он имеет много силы но мало брони ";
     String nameClass = "Воин";
-    int force;
-    int armor;
-    int dmage;
-    int mana;
-    @Override
-    public String getDescriptionGC() {
-        return description;
-    }
+    private int force;
+    private int armor;
+    private int damage;
+    private int mana;
 
-    @Override
-    public String toString() {
-        return nameClass+" "+description;
-    }
-
-    @Override
-    public void setForce() {
-        force +=1;
-    }
 }
