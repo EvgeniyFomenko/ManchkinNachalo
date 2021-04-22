@@ -3,15 +3,15 @@ package ru.evgenyfomenko.Player;
 
 import ru.evgenyfomenko.Weapone.*;
 
-public class Theif extends Charter{
+public class Theif extends Character {
     public Theif(){
         weapEquip = new Bow();
-        SetName("SmokeAngel");
+        setName("SmokeAngel");
         desctiption = "Пробирается не слышно как тень";
         nameClass = "Theif";
-        force = 5;
-        armor = 2;
-        damage = 3;
+        setForce(5);
+        setArmor(2);
+        setDamage(3);
     }
 
 

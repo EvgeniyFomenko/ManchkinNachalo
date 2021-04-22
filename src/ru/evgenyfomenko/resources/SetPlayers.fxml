@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.evgenyfomenko.controllers.SetPlayerController">
+   <children>
+      <ListView fx:id="lView" layoutX="30.0" layoutY="92.0" prefHeight="218.0" prefWidth="545.0" />
+      <Button fx:id="bNext" layoutX="326.0" layoutY="323.0" mnemonicParsing="false" onAction="#setOnPlayer" text="Далее" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button id="next" fx:id="bNewPlayer" layoutX="200.0" layoutY="323.0" mnemonicParsing="false" onAction="#createNewPlayer" prefHeight="39.0" prefWidth="107.0" text="Новый Игрок" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button id="next" fx:id="bExit" layoutX="14.0" layoutY="323.0" mnemonicParsing="false" onAction="#exitOnGame" text="Выход" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="213.0" layoutY="30.0" text="Выберете игрока">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

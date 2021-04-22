@@ -5,9 +5,9 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane id="fon" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.evgenyfomenko.Menu.Menu">
+<AnchorPane id="fon" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.evgenyfomenko.controllers.Menu">
    <children>
-      <Button id="start" contentDisplay="CENTER" layoutX="220.0" layoutY="194.0" mnemonicParsing="false" onAction="#buttonClicked" prefHeight="58.0" prefWidth="160.0" text="Старт">
+      <Button id="start" fx:id="bStart" contentDisplay="CENTER" layoutX="220.0" layoutY="194.0" mnemonicParsing="false" onAction="#buttonClicked" prefHeight="58.0" prefWidth="160.0" text="Старт">
          <font>
             <Font name="DejaVu Sans Bold" size="32.0" />
          </font>
